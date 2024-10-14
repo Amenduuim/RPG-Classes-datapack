@@ -1,0 +1,1 @@
+tellraw @a "Welcome to RPG Classes"
