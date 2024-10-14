@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags: [\"rpgc.paladin\"]}"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#rpgc:impure"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgc:paladin/sin_punisher"
+  }
+}
