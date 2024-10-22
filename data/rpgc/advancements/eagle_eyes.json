@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:adventure/shoot_arrow",
+    "criteria": {
+      "killed_skeleton": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags: [\"rpgc.hunter\"]}"
+          },
+          "damage": {
+            "type": {
+              "tags": [
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ]
+            }
+          },
+          "entity": []
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpgc:hunter/eagle_eyes"
+    }
+  }
+  
