@@ -1,6 +1,6 @@
-# Remove all tags
+# Remove class tags
 tag @s remove rpgc.paladin
 tag @s remove rpgc.hunter
 
-# Restore default attribute values
-attribute @s generic.movement_speed base set 0.1
+# Clear trait tags
+execute as @s at @s run function rpgc:traits/clear
