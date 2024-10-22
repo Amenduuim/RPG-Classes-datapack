@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "tag": "rpgc:helmets"
+        },
+        "chest": {
+          "tag": "rpgc:chestplates"
+        },
+        "legs": {
+          "tag": "rpgc:leggings"
+        },
+        "feet": {
+          "tag": "rpgc:boots"
+        }
+      }
+    }
+  }
+  

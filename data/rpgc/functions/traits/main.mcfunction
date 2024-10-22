@@ -1,0 +1,1 @@
+execute as @e[tag=rpgc.armor_adept, predicate=rpgc:using_full_armor] at @s run function rpgc:traits/armor_adept/loop
